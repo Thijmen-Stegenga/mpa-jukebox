@@ -8,7 +8,7 @@
     <body>
         
         @section('navbar')
-            <nav class="nav justify-content-center bg-info"> 
+            <nav class="nav justify-content-center bg-success"> 
                 <a class="nav-link text-white" href="/">Home</a> 
                 <a class="nav-link text-white" href="/queue">Queue</a> 
                 <a class="nav-link text-white" href="/playlist">Playlists</a> 
