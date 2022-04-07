@@ -7,7 +7,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-10">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
@@ -20,6 +20,17 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+                
+                @foreach($songs as $song)
+                <ul>
+                    <div> 
+                    <img src={{$song->img}}>
+                        <li>{{$song->name}}</li>
+                    </div>
+                <ul>
+                @endforeach
+                
+
             </div>
         </div>
     </div>
