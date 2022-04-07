@@ -56,6 +56,47 @@ class SongSeeder extends Seeder
             'genre' => 'Rap',
             'img' => "https://t2.genius.com/unsafe/399x399/https%3A%2F%2Fimages.genius.com%2F8b673f80818e4cc1b975e8d8cd81344c.1000x1000x1.png"
         ]);
+
+        //Pop Music
         
+        Song::create([
+            'name' => "One Dance",
+            'artist' => 'Drake',
+            'duration' => '00:02:54',
+            'genre' => 'Pop',
+            'img' => "https://t2.genius.com/unsafe/353x353/https%3A%2F%2Fimages.genius.com%2Fb94353bfd9c57fd0cf88677ffb777193.1000x1000x1.png"
+        ]);
+
+        Song::create([
+            'name' => "iSpy",
+            'artist' => 'KYLE',
+            'duration' => '00:04:13',
+            'genre' => 'Pop',
+            'img' => "https://t2.genius.com/unsafe/280x280/https%3A%2F%2Fimages.genius.com%2F99088d2e711b7e087809d30759ab8453.1000x1000x1.png"
+        ]);
+
+        Song::create([
+            'name' => "I'm the One",
+            'artist' => 'DJ Khaled',
+            'duration' => '00:04:49',
+            'genre' => 'Pop',
+            'img' => "https://t2.genius.com/unsafe/400x400/https%3A%2F%2Fimages.genius.com%2F6127733e5dbc43f75fcbf1b92e48a068.1000x1000x1.png"
+        ]);
+
+        Song::create([
+            'name' => "Fly Me to the Moon",
+            'artist' => 'Frank Sinatra',
+            'duration' => '00:02:30',
+            'genre' => 'Pop',
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F2eca85ad8e208ea2dc52e02d98b521f5.500x500x1.jpg"
+        ]);
+
+        Song::create([
+            'name' => "Papaoutai",
+            'artist' => 'Stromae',
+            'duration' => '00:03:53',
+            'genre' => 'Pop',
+            'img' => "https://t2.genius.com/unsafe/370x370/https%3A%2F%2Fimages.genius.com%2F1df59c8fca3821998ce28f1c3beb57c4.1000x1000x1.jpg"
+        ]);
     }
 }
