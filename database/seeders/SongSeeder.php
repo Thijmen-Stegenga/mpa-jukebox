@@ -99,5 +99,48 @@ class SongSeeder extends Seeder
             'genre' => 'Pop',
             'img' => "https://t2.genius.com/unsafe/370x370/https%3A%2F%2Fimages.genius.com%2F1df59c8fca3821998ce28f1c3beb57c4.1000x1000x1.jpg"
         ]);
+
+        // R&B
+
+        Song::create([
+            'name' => "In My Head",
+            'artist' => 'Lil Tjay',
+            'duration' => '00:02:16',
+            'genre' => 'R&B',
+            'img' => "https://t2.genius.com/unsafe/368x368/https%3A%2F%2Fimages.genius.com%2Fe4d472f767ab1848a19f7cb6a816fb31.1000x1000x1.png"
+        ]);
+
+        Song::create([
+            'name' => "HeatWaves",
+            'artist' => 'Glass Animals',
+            'duration' => '00:03:59',
+            'genre' => 'R&B',
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F67abc49ab0c17779c4f63a9e8717cba4.1000x1000x1.png"
+        ]);
+
+        Song::create([
+            'name' => "Jack Harlow",
+            'artist' => 'First Class',
+            'duration' => '00:02:54',
+            'genre' => 'R&B',
+            'img' => "https://t2.genius.com/unsafe/407x407/https%3A%2F%2Fimages.genius.com%2F87249068d05ab2839374c0fdae42da50.1000x1000x1.png"
+        ]);
+
+        Song::create([
+            'name' => "YNW Melly",
+            'artist' => 'Murder on my mind',
+            'duration' => '00:04:29',
+            'genre' => 'R&B',
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F6f1babe6dbd99b0fedcb05d612a1ca8a.1000x1000x1.png"
+        ]);
+
+        Song::create([
+            'name' => "Juice WRLD & XXXTENTACION",
+            'artist' => 'Do You Know The Way (Demo)',
+            'duration' => '00:02:29',
+            'genre' => 'R&B',
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F54d4774469c71589df7e8cf17092d407.1000x1000x1.jpg"
+        ]);
+
     }
 }
