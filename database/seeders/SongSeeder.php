@@ -119,27 +119,69 @@ class SongSeeder extends Seeder
         ]);
 
         Song::create([
-            'name' => "Jack Harlow",
-            'artist' => 'First Class',
+            'name' => "First Class",
+            'artist' => 'Jack Harlow',
             'duration' => '00:02:54',
             'genre' => 'R&B',
             'img' => "https://t2.genius.com/unsafe/407x407/https%3A%2F%2Fimages.genius.com%2F87249068d05ab2839374c0fdae42da50.1000x1000x1.png"
         ]);
 
         Song::create([
-            'name' => "YNW Melly",
-            'artist' => 'Murder on my mind',
+            'name' => "Murder on my mind",
+            'artist' => 'YNW Melly',
             'duration' => '00:04:29',
             'genre' => 'R&B',
             'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F6f1babe6dbd99b0fedcb05d612a1ca8a.1000x1000x1.png"
         ]);
 
         Song::create([
-            'name' => "Juice WRLD & XXXTENTACION",
-            'artist' => 'Do You Know The Way (Demo)',
+            'name' => "Do You Know The Way (Demo)",
+            'artist' => 'Juice WRLD & XXXTENTACION',
             'duration' => '00:02:29',
             'genre' => 'R&B',
             'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F54d4774469c71589df7e8cf17092d407.1000x1000x1.jpg"
+        ]);
+
+        //Rock genre
+
+        Song::create([
+            'name' => "Bohemian Rhapsody",
+            'artist' => 'Queen',
+            'duration' => '00:05:59',
+            'genre' => 'Rock',
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F54d4774469c71589df7e8cf17092d407.1000x1000x1.jpg"
+        ]);
+
+        Song::create([
+            'name' => "Lose Yourself",
+            'artist' => 'Eminem',
+            'duration' => '00:05:27',
+            'genre' => 'Rock',
+            'img' => "https://t2.genius.com/unsafe/398x398/https%3A%2F%2Fimages.genius.com%2Fce61c1b2664c5952984e30f9b59f1346.1000x1000x1.png"
+        ]);
+
+        Song::create([
+            'name' => "Take Me TO Church",
+            'artist' => 'Hozier',
+            'duration' => '00:4:02',
+            'genre' => 'Rock',
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F4c52978c08e47b7517e588bd15570f7d.1000x1000x1.jpg"
+        ]);
+
+        Song::create([
+            'name' => "Revenge",
+            'artist' => 'XXXTENTACION',
+            'duration' => '00:2:01',
+            'genre' => 'Rock',
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F4c52978c08e47b7517e588bd15570f7d.1000x1000x1.jpg"
+        ]);
+
+        Song::create([
+            'name' => "In The End",
+            'artist' => 'Linkin Park',
+            'duration' => '00:2:01',
+            'genre' => 'Rock',
+            'img' => "https://t2.genius.com/unsafe/396x396/https%3A%2F%2Fimages.genius.com%2F99b120c80b19d34dc589096a98b2fabc.1000x1000x1.png"
         ]);
 
     }
