@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\SongController::class, 'index']);
 
+Route::get('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('/');
+
 Auth::routes();

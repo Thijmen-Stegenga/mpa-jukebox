@@ -103,11 +103,11 @@ class SongSeeder extends Seeder
         // R&B
 
         Song::create([
-            'name' => "In My Head",
-            'artist' => 'Lil Tjay',
-            'duration' => '00:02:16',
+            'name' => "Hotline Bling",
+            'artist' => 'Drake',
+            'duration' => '00:04:28',
             'genre' => 'R&B',
-            'img' => "https://t2.genius.com/unsafe/368x368/https%3A%2F%2Fimages.genius.com%2Fe4d472f767ab1848a19f7cb6a816fb31.1000x1000x1.png"
+            'img' => "https://t2.genius.com/unsafe/373x373/https%3A%2F%2Fimages.genius.com%2Ff3be0158d3a067a81b075686a3a2e63d.1000x1000x1.png"
         ]);
 
         Song::create([
@@ -149,7 +149,7 @@ class SongSeeder extends Seeder
             'artist' => 'Queen',
             'duration' => '00:05:59',
             'genre' => 'Rock',
-            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F54d4774469c71589df7e8cf17092d407.1000x1000x1.jpg"
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2Fff9ddef65ab95da61354ce587748e2e9.600x600x1.png"
         ]);
 
         Song::create([
@@ -173,7 +173,7 @@ class SongSeeder extends Seeder
             'artist' => 'XXXTENTACION',
             'duration' => '00:2:01',
             'genre' => 'Rock',
-            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F4c52978c08e47b7517e588bd15570f7d.1000x1000x1.jpg"
+            'img' => "4c52978c08e47b7517e588bd15570f7d.1000x1000x1.jpg"
         ]);
 
         Song::create([
