@@ -169,11 +169,11 @@ class SongSeeder extends Seeder
         ]);
 
         Song::create([
-            'name' => "Revenge",
-            'artist' => 'XXXTENTACION',
-            'duration' => '00:2:01',
+            'name' => "Sicko Mode",
+            'artist' => 'Travis Scott',
+            'duration' => '00:5:13',
             'genre' => 'Rock',
-            'img' => "4c52978c08e47b7517e588bd15570f7d.1000x1000x1.jpg"
+            'img' => "https://t2.genius.com/unsafe/409x409/https%3A%2F%2Fimages.genius.com%2F3ddb5a3396c5c340b7328702dc3c1d11.1000x1000x1.png"
         ]);
 
         Song::create([
