@@ -17,7 +17,7 @@
                 <a class="btn btn-secondary" href="/playlist/editName/{{ $playlist->id }}">Change Playlist Name</a>
                 <a class="btn btn-danger" href="/playlist/delete/{{ $playlist->id }}">Delete Playlist</a>
             </div>
-        @endforeach
+        @endforeach 
     </div>
 @endif
 
