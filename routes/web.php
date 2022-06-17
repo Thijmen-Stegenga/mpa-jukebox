@@ -35,5 +35,17 @@ Route::get('/queue/delete/{id}', [App\Http\Controllers\QueueController::class, '
 Route::get('/queue/clear', [App\Http\Controllers\QueueController::class, 'clearQueue'])->name('clearQueue');
 
 Route::get('/song/detail/{id}', [SongController::class, 'songDetail']);
+//kan alleen gebruikt worden als men ingelogd is
+Route::group(['middleware' => ['auth']], function() {
+     Route::post('/playlist/create', [App\Http\Controllers\PlaylistController::class, 'create'])->name("playlistCreate");
+     Route::post('/playlist/new', [App\Http\Controllers\PlaylistController::class, 'newName']);
+     Route::get('/playlist/addsong/to/playlist/{id}/{songId}', [App\Http\Controllers\PlaylistController::class, 'addSongToPlaylist']);
+     Route::get('/playlist/save', [App\Http\Controllers\PlaylistController::class, 'save']);
+     Route::get('playlist/detail/{id}', [App\Http\Controllers\PlaylistController::class, 'detail'])->name('playlistDetail');
+     Route::get('/playlist/delete/{id}', [App\Http\Controllers\PlaylistController::class, 'delete']);
+     Route::get('/playlist/editName/{id}', [App\Http\Controllers\PlaylistController::class, 'playlistName']);
+     Route::get('/playlist/remove/{id}/{songId}', [App\Http\Controllers\PlaylistController::class, 'removeSong']);
+});
+
 
 Auth::routes();

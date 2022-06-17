@@ -35,6 +35,7 @@
         <img class="mx-auto mt-4 border border-" src={{$song->img}}>
             <li class="font-weight-bold mt-2">{{$song->name}}</li>
             <li>{{$song->artist}}</li>
+            
             <li>{{$song->duration}}</li>
             <li>{{$song->genre}}</li> 
 
