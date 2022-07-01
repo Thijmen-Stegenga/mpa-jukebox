@@ -148,4 +148,19 @@ class PlaylistController extends Controller
         $time = [ 'minute' => $minutes,'second' => $seconds];
         return $time;
     }
+
+    public function detail($id){
+        //gets the playlist id and the songs
+        //also runs the convertTime function
+        $playlist = Playlist::findOrFail($id);
+        $songs = Song::get();
+        $playlistTime = $this->convertTime($id);
+
+        return view('playlist_detail', [
+            'playlist' => $playlist,
+            'songs' => $songs,
+            'playlistTime' => $playlistTime
+        ]);
+    }
+
 }
